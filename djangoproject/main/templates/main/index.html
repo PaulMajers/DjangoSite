@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}{{ title_1 }}{% endblock %}
+
+{% block content %}
+<div class="fiatures">
+    <h1>{{ title }}</h1>
+    <p>И что бы мне здесь написать? Много-много текста, очень любопытного текста. Он нужен для того, чтобы проверить,
+        все ли назначенные мной стили работают. И как? Они работают?</p>
+    <button class="btn btn-warning">{% filter upper %}Красивая кнопка{% endfilter %}</button>
+
+
+</div>
+
+
+{% endblock %}
+
+
